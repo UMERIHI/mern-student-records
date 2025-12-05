@@ -6,7 +6,6 @@ This is a CRUD application built using the MERN stack (minus MongoDB) to manage 
 
 This is the exact folder structure for your current project:
 
-```text
 StudentCrudApp/
 ├── README.md              <-- This file
 ├── backend/               <-- Folder for Node/Express API
@@ -14,13 +13,15 @@ StudentCrudApp/
 │   │   └── students.json  <-- JSON file stores data (Created automatically)
 │   ├── routes/
 │   │   └── studentRoutes.js <-- API Routes (GET, POST, etc.)
+│   ├── models/
+│   │   └── Student.js <-- API Routes (GET, POST, etc.)
 │   └── server.js          <-- Main backend entry point (Port 5001)
 │
 └── frontend/              <-- Folder for React App
     ├── public/
     ├── src/
     │   └── App.js         <-- Main React file (Contains all components)
-    └── package.json
+
 
 Features
 Create: Add new students with Name, Email, Age, and Course.
@@ -45,7 +46,7 @@ Installation & Setup
 Navigate to the backend folder:
 
 cd backend
-Install dependencies (No MongoDB needed):
+Install dependencies:
 
 npm install express cors
 Start the server:
@@ -54,6 +55,8 @@ node server.js
 Note: The server will run on http://localhost:5001 (Changed from 5000 to avoid macOS AirPlay conflict).
 
 2. Frontend Setup
+Create your frontend folder using npx create-react-app frontend.
+
 Open a new terminal and navigate to the frontend folder:
 
 cd frontend
