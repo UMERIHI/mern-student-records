@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1715629",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "age": 20,
+    "course": "Computer Science"
+  },
+  {
+    "id": "1715630",
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "age": 22,
+    "course": "Information Technology"
+  }
+]
